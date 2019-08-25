@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		<title>Cryptography Documentation Page</title>
+	</head>
+
+	<body>
+		<nav id="navbar" class="nav navbar-dark bg-light fixed-top nav-justified">
+			<header>
+				<h1>Cryptography Documentation</h1>
+			</header>
+			<ul>
+				<li><a href="#introduction" class="nav-link active">Introduction</a></li>
+				<li><a href="#encryption" class="nav-link">Encryption</a></li>
+				<li><a href="#padding" class="nav-link">Padding</a></li>
+				<li><a href="#hash_function" class="nav-link">Hash Function</a></li>
+				<li><a href="#cryptanalysis" class="nav-link">Cryptanalysis</a></li>
+			</ul>
+		</nav>
+
+		<main id="main-doc">
+			<section class="main-section" id="introduction">
+				<header>Introduction</header>
+				<p>Cryptography is <code>the practice and study of techniques for secure communication in the presence of third parties called adversaries.</code></p>
+				<p>More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages; various aspects in information security such as data confidentiality, data integrity, authentication, and non-repudiation are central to modern cryptography.</p>
+			</section>
+
+			<section class="main-section" id="encryption">
+				<header>Encryption</header>
+				<p>Encryption is the <code>process of encoding a message or information in such a way that only authorized parties can access it and those who are not authorized cannot.</code></p>
+				<p>Encryption does not itself prevent interference, but denies the intelligible content to a would-be interceptor.</p>
+			</section>
+
+			<section class="main-section" id="padding">
+				<header>Padding</header>
+				<p>In cryptography, <code>padding refers to a number of distinct practices which all include adding data to the beginning, middle, or end of a message prior to encryption.</code></p>
+				<p>In classical cryptography, padding may include adding nonsense phrases to a message to obscure the fact that many messages end in predictable ways, e.g.</p>
+				<ul>
+					<li><em>sincerely yours</em>.</li>
+				</ul>
+			</section>
+
+			<section class="main-section" id="hash_function">
+				<header>Hash Functions</header>
+				<p>A hash function is <code>any function that can be used to map data of arbitrary size onto data of a fixed size.</code> The values returned by a hash function are called:</p>
+				<ul>
+					<li><strong>hash values</strong></li>
+					<li><strong>hash codes</strong></li>
+					<li><strong>digests</strong> or simply:</li>
+					<li><strong>hashes</strong></li>
+				</ul>
+
+				<p>Hash functions are often used in combination with a hash table, a common data structure used in computer software for rapid data lookup.</p>
+			</section>
+
+			<section class="main-section" id="cryptanalysis">
+				<header>Cyptanalysis</header>
+				<p>Crptanalysis is <code>the study of analyzing information systems in order to study the hidden aspects of the systems.</code></p>
+				<p>Cryptanalysis is used to breach cryptographic security systems and gain access to the contents of encrypted messages, even if the cryptographic key is unknown.</p>
+			</section>
+		</main>
+	</body>
+</html>
